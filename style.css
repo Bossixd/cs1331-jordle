@@ -1,0 +1,73 @@
+/* Welcome Screen */
+
+.jordle-welcome-box {
+    -fx-background-size: 900px, 600px;
+}
+
+.jordle-welcome-box * {
+    -fx-padding: 12px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+
+.jordle-welcome-text {
+    -fx-font-size: 52px;
+    -fx-font-family: 'sans-serif';
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+}
+
+.play-button {
+    -fx-font-family: 'sans-serif';
+    -fx-background-color: #CCFF99;
+}
+
+.play-button:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: #7ff10e;
+}
+
+/* Game Screen */
+
+.jordle-title {
+    -fx-font-family: 'sans-serif';
+    -fx-font-size: 52px;
+    -fx-font-weight: bolder;
+}
+
+.jordle-instruction {
+    -fx-font-family: 'sans-serif';
+    -fx-font-size: 24px;
+}
+
+.jordle-grid-block {
+    -fx-font-family: 'sans-serif';
+    -fx-font-size: 24px;
+    -fx-font-weight: bolder;
+}
+
+.user-button {
+    -fx-padding: 12px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-background-color: #CCFF99;
+    -fx-font-family: 'sans-serif';
+}
+
+.user-button:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: #7ff10e;
+}
+
+/* Keyboard */
+
+.keyboard-button {
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-background-color: white;
+}
+
+.keyboard-button:hover {
+    -fx-background-color: lightgrey;
+}
